@@ -7,7 +7,7 @@ socket.on('connect', function (socket) {
     console.log('Connected!');
 });
 
-socket.on('1_notification', function (data) {
+socket.on('1notification', function (data) {
     console.log(data);
 });
 
